@@ -1,5 +1,7 @@
+
 #!/usr/bin/env bash
 set -e
+export PYTHONPATH=/app
 
 # Copy cron jobs from /cron to /etc/cron.d and set permissions
 # Copy cron jobs from /cron (mounted) or /app/cron (from image) into /etc/cron.d and set permissions
